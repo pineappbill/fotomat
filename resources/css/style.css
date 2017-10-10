@@ -56,6 +56,7 @@ header img {
     height: 45rem;
     background-size: cover;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -63,7 +64,7 @@ header img {
     background-color: #9DC20A;
     border: 1px solid #979797;
     border-radius: .25rem;
-    margin-left: 6.25rem;
+    opacity: 0.95;
 }
 
 .banner-container {
@@ -127,6 +128,11 @@ header img {
     flex-direction: column;
     background-color: white;
     margin: 3.5rem 1.1875rem 2.875rem 1.1875rem;
+    transition: all 2s ease;
+}
+
+.windows:hover {
+    background-color: #9DC20A;
 }
 
 .window {
@@ -138,11 +144,20 @@ header img {
 .window-content {
     height: 11.6875rem;
 }
+@media and screen (max-width: 768px)  and (orientation: portrait){
+    .window-content {
+        height: 15rem;
+}
 
 .window img {
     height: auto;
     max-width: 100%;
     margin-bottom: 2.5rem;
+    transition: all 0.5s ease;
+}
+
+.window img:hover {
+    transform: scale(1.05);
 }
 
 .window h3 {
@@ -188,12 +203,17 @@ header img {
 .filter-images {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .filter-images img {
     width: 24.5%;
     height: 40%;
+    transition: all 1s ease;
+}
+
+.filter-images img:hover {
+    transform: scale(1.05);
 }
 /* Quote Section */
 .quote {
