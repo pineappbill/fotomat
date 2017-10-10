@@ -118,7 +118,7 @@ header img {
 .feature {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: rgb(234, 234, 234);
 }
 
@@ -126,19 +126,22 @@ header img {
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 43rem;
-    margin: 4rem 1.1875rem 2.875rem 1.1875rem;
+    margin: 3.5rem 1.1875rem 2.875rem 1.1875rem;
 }
 
 .window {
     margin: 2rem 2rem 0rem 2rem;
     text-align: center;
-    color: #4A4A4A
+    color: #4A4A4A;
+}
+
+.window-content {
+    height: 11.6875rem;
 }
 
 .window img {
-    height: 65%;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
     margin-bottom: 2.5rem;
 }
 
@@ -154,7 +157,7 @@ header img {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.2;
-    margin-top: 1rem;   
+    margin-top: 1rem; 
 }
 /* Filter Section */
 .filters {
@@ -203,7 +206,7 @@ header img {
 }
 
 .quote h3 {
-    margin: 5rem 0rem;
+    margin: 5rem 0rem 5rem 2rem;
     font-size: 1.875rem;
     font-family: 'Merriweather', serif;
     font-style: italic;
@@ -211,6 +214,7 @@ header img {
 
 .quote img {
     margin-left: 1.875rem;
+    margin-right: 2rem;
 }
 /* Footer Section */
 footer {
