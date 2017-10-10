@@ -75,6 +75,10 @@ header img {
         align-items: center;
     }
 
+    nav li {
+        padding: 0rem 1rem;
+    }
+
     .mobile li:last-child {
         background-color: #9DC20B;
         padding: 0.1875rem 0.5rem;
@@ -155,7 +159,7 @@ header img {
 }
 @media screen and (max-width: 500px) {
     .jumbotron {
-        height: 22rem;
+        height: 24rem;
         background-position: 75% 10%;
     }
 
@@ -300,6 +304,10 @@ header img {
     transform: scale(1.05);
 }
 @media screen and (max-width: 500px) {
+    .filters-content {
+        margin: 2rem 0rem;
+    }
+
     .filters-content h3 {
         font-size: 1.5rem;
     }
@@ -352,7 +360,7 @@ header img {
     }
 
     .quote img {
-        margin: 1rem 0rem;
+        margin: 0rem 0rem 1rem 0rem;
     }
 }
 /* Footer Section */
