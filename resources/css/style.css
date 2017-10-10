@@ -144,7 +144,7 @@ header img {
 .window-content {
     height: 11.6875rem;
 }
-@media and screen (max-width: 768px)  and (orientation: portrait){
+@media and screen (max-width: 768px) and (orientation: portrait){
     .window-content {
         height: 15rem;
 }
@@ -158,6 +158,15 @@ header img {
 
 .window img:hover {
     transform: scale(1.05);
+}
+@media and screen (max-width: 768px) {
+    .window img {
+        transition: none;
+    }
+
+    .window img:hover {
+        transform: none;
+    }
 }
 
 .window h3 {
@@ -214,6 +223,15 @@ header img {
 
 .filter-images img:hover {
     transform: scale(1.05);
+}
+@media screen and (max-width: 768px) {
+    .filter-image img {
+        transition: none;
+    }
+
+    .filter-images img:hover {
+        transform: none;
+    }
 }
 /* Quote Section */
 .quote {
