@@ -110,6 +110,7 @@ header img {
     align-items: center;
     background-attachment: fixed;
     padding-top: 5.3125rem;
+    background-position: right;
 }
 
 .banner {
