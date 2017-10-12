@@ -162,7 +162,7 @@ header img {
     .jumbotron {
         height: 24rem;
         background-position: 75% 10%;
-        background-attachment: static;
+        background-attachment: scroll;
     }
 
     .banner {
@@ -263,6 +263,10 @@ header img {
         height: 10rem;
         line-height: 1.3;      
     }
+
+    .window img:hover {
+        transform: scale(1.0);
+    }
 }
 /* Filter Section */
 .filters {
@@ -325,6 +329,10 @@ header img {
 
     .filter-images img {
         width: 49%;
+    }
+
+    .filter-images img:hover {
+        transform: scale(1.0);
     }
 }
 /* Quote Section */
