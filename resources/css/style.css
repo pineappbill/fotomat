@@ -29,6 +29,10 @@ header {
     height: 5.3125rem;
     color: #4A4A4A;
     line-height: 1.6;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
 }
 
 .name {
@@ -105,6 +109,7 @@ header img {
     justify-content: center;
     align-items: center;
     background-attachment: fixed;
+    padding-top: 5.3125rem;
 }
 
 .banner {
@@ -188,6 +193,8 @@ header img {
     justify-content: center;
     align-items: flex-start;
     background-color: rgb(234, 234, 234);
+    position: relative;
+    z-index: 2;
 }
 
 .windows {
@@ -273,6 +280,8 @@ header img {
     background-color: rgb(74, 74, 74);
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: 2;
 }
 
 .filters-content {
@@ -343,6 +352,8 @@ header img {
     background-color: rgb(234, 234, 234);
     color: #4A4A4A;
     line-height: 1.1;
+    position: relative;
+    z-index: 2;
 }
 
 .quote h3 {
@@ -383,6 +394,8 @@ footer {
     font-size: 0.75rem;
     font-family: 'Roboto', sans-serif;
     background-color: #9B9B9B;
+    position: relative;
+    z-index: 2;
 }
 
 footer p {
