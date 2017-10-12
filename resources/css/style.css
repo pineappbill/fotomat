@@ -167,7 +167,7 @@ header img {
 @media screen and (max-width: 500px) {
     .jumbotron {
         height: 24rem;
-        background-position: 75% 10%;
+        background-position: right;
         background-attachment: scroll;
     }
 
