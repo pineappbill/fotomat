@@ -104,7 +104,7 @@ header img {
 .jumbotron {
     background-image: url('../images/banner-landingpage.jpg');
     height: 45rem;
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     justify-content: center;
     align-items: center;
