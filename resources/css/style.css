@@ -162,6 +162,7 @@ header img {
     .jumbotron {
         height: 24rem;
         background-position: 75% 10%;
+        background-attachment: static;
     }
 
     .banner {
