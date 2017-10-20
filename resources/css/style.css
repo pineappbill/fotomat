@@ -119,6 +119,17 @@ header img {
     border: 1px solid #979797;
     border-radius: .25rem;
     opacity: 0.95;
+    animation-name: slidein;
+    animation-duration: 5s;
+}
+
+@keyframe slinein {
+    from {
+        margin-bottom: 90%;
+    }
+    to {
+        margin-bottom: 0%;
+    }
 }
 
 .banner-content {
