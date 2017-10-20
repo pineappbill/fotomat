@@ -125,7 +125,7 @@ header img {
 
 @keyframes slidein {
     from {
-        margin-bottom: 90%;
+        margin-bottom: 100%;
     }
     to {
         margin-bottom: 0%;
