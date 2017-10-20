@@ -123,7 +123,7 @@ header img {
     animation-duration: 5s;
 }
 
-@keyframe slidein {
+@keyframes slidein {
     from {
         margin-bottom: 90%;
     }
