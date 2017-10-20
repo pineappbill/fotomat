@@ -127,7 +127,7 @@ header img {
 
 @-moz-keyframes slidein {
     from {
-        margin-bottom: 100%;
+        margin-bottom: 140%;
     }
     to {
         margin-bottom: 0%;
