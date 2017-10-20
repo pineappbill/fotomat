@@ -119,8 +119,19 @@ header img {
     border: 1px solid #979797;
     border-radius: .25rem;
     opacity: 0.95;
+    -moz-animation-name: slidein;
     animation-name: slidein;
+    -moz-animation-duration: 5s;
     animation-duration: 5s;
+}
+
+@-moz-keyframes slidein {
+    from {
+        margin-bottom: 100%;
+    }
+    to {
+        margin-bottom: 0%;
+    }
 }
 
 @keyframes slidein {
